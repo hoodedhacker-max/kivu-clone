@@ -1,0 +1,118 @@
+ * {
+    margin: 0;
+    padding: 0;}
+    
+ .firstpage {
+    background-image: url("kivunoir.webp");
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.firstpage h2 {
+    color: rgba(255, 255, 255, 0.947);
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40vh;
+}
+.firstpage button {
+    display: block;
+    margin: 20px auto;
+    padding: 0.9rem 2rem;
+    font-size: 1.2em;
+    background-color: blue;
+    cursor: grab;
+    color: white;
+}
+.secondpage {
+    background-color:black;
+    padding: 30px 15px;
+    text-align: left;
+    height: 90vh;
+    display: flex;
+}
+.text {
+    color: white;
+}
+.secondpage img {
+    width: 470px;
+    height: 90vh;
+    padding-left: 100px;
+    margin-right: 100px;
+}
+.text h1 {
+   font-size: 3em;
+   margin-left: 125px;
+   margin-top: 100px;
+   font-family: Sans-serif;
+}
+.text p {
+    font-size: 1.3em;
+    margin-left: 100px;
+    margin-top: 50px;
+    line-height: 1.6em;
+}
+ .button button {
+    font-size: 1.2em;
+    background-color: #53566f;
+    cursor: grab;
+    size: 1.8em;
+    text-align: left;
+    padding: 0.9rem 2rem;
+    color: white;
+}
+.button {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: black;
+    width: 100%;
+}
+.thirdpage {
+    background-color:black;
+    padding: 30px 15px;
+    text-align: left;
+    height: 100vh;
+    display: flex;
+}
+.image-wrapper {
+  width: 45%;
+  height: 90%;
+  overflow: hidden;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fourthpage {
+    background-color: black;
+    padding: 30px 15px;
+    text-align: left;
+    height: 100vh;
+    display: flex;
+}
+.lastpage {
+    color: white;
+    width: 50%;
+    background-image: url("coffeespil.webp");
+    height: 100vh;
+    width: 100%;
+}
+.lastpage h2 {
+    color: rgba(255, 255, 255, 0.947);
+    font-size: 3em;
+    text-align: center;
+    padding-top: 40vh;
+}
+.lastpage button {
+    display: block;
+    margin: 20px auto;
+    padding: 0.9rem 2rem;
+    font-size: 1.2em;
+    background-color: blue;
+    cursor: grab;
+    color: white;
+}
